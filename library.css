@@ -1,0 +1,26 @@
+.box__hdn h2:first-child  {
+    margin-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
+    padding-top: 50px;
+   
+}
+    
+.box__hdn p  {
+    margin-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+   
+}
+.box__hdn code  {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: var(--white);
+  
+}
+.h_headings {
+    margin-left: 100px;
+    
+}
