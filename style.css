@@ -42,17 +42,19 @@ header .navbar__menu li a {
 .first {
     display: flex;
     justify-content: left;
+    border-left: 5px solid var(--gold);
+    margin-left: 95px;
 }
 .first h1 {
     margin-bottom: 0px;
     margin-top: 80px;
-    margin-left: 100px;
+    margin-left: 5px;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 40px;
     word-wrap: break-word;
     width: 300px;
-    border-left: 5px solid var(--gold);
+    
 }
 .box__hdn  {
     background-color: var(--grean);
@@ -89,4 +91,24 @@ header .navbar__menu li a {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     text-align: center;
+    margin: 65px;
+}
+.box__btn p {
+    text-align: center;
+    margin-left: 37em;
+    margin-top: 3em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color: var(--blac);
+}
+.box__btn code {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: var(--blac);
+}
+.box__gal h2 {
+    margin-left: 100px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    margin-top: 60px;
 }

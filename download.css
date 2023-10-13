@@ -8,42 +8,42 @@
 }
 .primary-btn {
     background: var(--gold);
-    font-size: 20px;
+    font-size: 26px;
     border-radius: 5px;
-    padding: 12px 43px;
+    padding: 16px 52px;
     color: var(--white);
     font-weight: 600;
     border:  2px solid var(--gold);
 }
 .click-btn {
     background: black;
-    font-size: 20px;
+    font-size: 26px;
     border-radius: 5px;
-    padding: 12px 43px;
+    padding: 16px 52px;
     color: var(--white);
     font-weight: 600;
-    margin-left: 45px;
+    margin-left: 60px;
     transition: 0.3s;
     border:  2px solid var(--blac);
 }
 .noclick-btn {
     background: transparent;
-    font-size: 20px;
+    font-size: 26px;
     border: 2px solid var(--gold);
     border-radius: 5px;
-    padding: 12px 43px;
+    padding: 16px 52px;
     color: var(--gold);
     font-weight: 600;
-    margin-left: 45px;
+    margin-left: 60px;
 }
 .change-btn {
     background: var(--grean);
-    font-size: 20px;
+    font-size: 26px;
     border-radius: 5px;
-    padding: 12px 43px;
+    padding: 16px 52px;
     color: var(--blac);
     font-weight: 600;
-    margin-left: 45px;
+    margin-left: 60px;
     border:  2px solid var(--grean);
 }
 .primary-btn:hover {
@@ -68,4 +68,43 @@
     transition: 2s;
     background: var(--gold);
     border: 2px solid var(--gold);
+}
+
+/* gallery */
+.gallery {
+    display: flex;
+    padding: 0.5em 3em;
+}
+figure {
+    overflow: hidden;
+    margin: 2em;
+}
+.img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+   
+}
+.img__caption {
+    color: var(--white);
+    text-align: center;
+}
+figure a .img__caption  {
+    position: absolute;
+    opacity: 0;
+    bottom: -51em;
+    transition: 0.8s;
+    background-color: rgba(0, 0, 0, 0.232);
+    width: 354px;
+    padding: 5px;
+}
+figure a:hover .img__caption {
+    transition: 0.8s;
+    opacity: 1;
+}
+figure:hover .img {
+    transform: scale(1.05);
+    transition: transform .25s;
+    overflow: hidden;
 }
