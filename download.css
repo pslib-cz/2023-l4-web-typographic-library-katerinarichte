@@ -73,7 +73,8 @@
 /* gallery */
 .gallery {
     display: flex;
-    padding: 0.5em 3em;
+    justify-content: center;
+    padding: 0.5em 3em 6em 3em;
 }
 figure {
     overflow: hidden;
@@ -93,10 +94,9 @@ figure {
 figure a .img__caption  {
     position: absolute;
     opacity: 0;
-    bottom: -51em;
     transition: 0.8s;
     background-color: rgba(0, 0, 0, 0.232);
-    width: 354px;
+    width: 25%;
     padding: 5px;
 }
 figure a:hover .img__caption {
