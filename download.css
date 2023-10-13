@@ -1,0 +1,71 @@
+/* button */
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.primary-btn {
+    background: var(--gold);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 43px;
+    color: var(--white);
+    font-weight: 600;
+    border:  2px solid var(--gold);
+}
+.click-btn {
+    background: black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 43px;
+    color: var(--white);
+    font-weight: 600;
+    margin-left: 45px;
+    transition: 0.3s;
+    border:  2px solid var(--blac);
+}
+.noclick-btn {
+    background: transparent;
+    font-size: 20px;
+    border: 2px solid var(--gold);
+    border-radius: 5px;
+    padding: 12px 43px;
+    color: var(--gold);
+    font-weight: 600;
+    margin-left: 45px;
+}
+.change-btn {
+    background: var(--grean);
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 43px;
+    color: var(--blac);
+    font-weight: 600;
+    margin-left: 45px;
+    border:  2px solid var(--grean);
+}
+.primary-btn:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.click-btn:hover {
+    transition: 0.3s;
+    background: transparent;
+    color: var(--blac);
+    border:  2px solid var(--blac);
+   
+}
+.noclick-btn:hover {
+    border: 2px solid var(--grean);
+    transition: 0,4s;
+    color: var(--grean);
+    cursor: pointer;
+}
+.change-btn:hover {
+    transition: 2s;
+    background: var(--gold);
+    border: 2px solid var(--gold);
+}
