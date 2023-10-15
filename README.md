@@ -1,8 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/zprwltzm)
 # Typography CSS library
-**Author:** *First Lastname*
+**Author:** *Katerina Richterova*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://github.com/pslib-cz/2023-l4-web-typographic-library-katerinarichte.git)** site for preview.
 ## Dependecies
 ...
 ## Implementation
