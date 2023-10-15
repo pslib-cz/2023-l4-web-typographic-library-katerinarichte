@@ -153,3 +153,69 @@ footer .info {
 footer p {
     margin: 1px;
 }
+@media screen and  (max-width:758px) and (min-width:341px) {
+    .box__btn {
+        display: grid;
+    }
+    .box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 30px;
+        padding: 1px 200px;
+       
+    }
+    .click-btn {
+     margin: 0;
+    }
+    .noclick-btn {
+       margin: 0;
+    }
+    .primary-btn {
+        margin: 0;
+    }
+    .change-btn {
+        margin: 0;
+    }
+    .box__btn p {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .box__btn {
+        display: grid;
+    }
+    .box {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: end;
+        gap: 30px;
+        padding: 1px 0px;
+       
+    }
+    .first h1 {
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .h_headings {
+        margin-left: 30px;
+    }
+    .box__hdn h2:first-child {
+        margin-left: 30px;
+    }
+    .box__hdn p {
+        margin-left: 30px;
+    }
+    header .navbar__menu li a {
+        size: 8px;
+        margin-left: 10px;
+    }
+    .box__gal h2 {
+        margin-left: 30px;
+    }
+    .gallery {
+        display: block;
+        padding: 0;
+    }
+}
