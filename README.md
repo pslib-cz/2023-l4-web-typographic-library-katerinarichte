@@ -2,7 +2,7 @@
 # Typography CSS library
 **Author:** *Katerina Richterova*
 ## Demo site
-Link to **[demo](https://github.com/pslib-cz/2023-l4-web-typographic-library-katerinarichte.git)** site for preview.
+Link to **[demo]( https://pslib-cz.github.io/2023-l4-web-typographic-library-katerinarichte/)** site for preview.
 ## Dependecies
 ...
 ## Implementation
