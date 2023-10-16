@@ -16,7 +16,11 @@ header {
     position: fixed;
     width: 100%;
 }
-   
+.navbar__menu {
+    background: var(--white);
+    width: fit-content;
+    padding: 1em 0em;
+}   
 header .navbar {
     display: flex;
     justify-content: right;
@@ -149,57 +153,25 @@ footer .info {
     justify-content: center;
     justify-items: center;
     padding: 5em;
+    margin: 5em;
 }
 footer p {
     margin: 1px;
 }
 @media screen and  (max-width:758px) and (min-width:341px) {
-    .box__btn {
-        display: grid;
-    }
-    .box {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 30px;
-        padding: 1px 200px;
-       
-    }
-    .click-btn {
-     margin: 0;
-    }
-    .noclick-btn {
-       margin: 0;
-    }
-    .primary-btn {
-        margin: 0;
-    }
-    .change-btn {
-        margin: 0;
-    }
-    .box__btn p {
-        margin-left: 0;
-    }
-}
-
-@media screen and (max-width:340px) {
-    .box__btn {
-        display: grid;
-    }
-    .box {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-items: end;
-        gap: 30px;
-        padding: 1px 0px;
-       
-    }
     .first h1 {
         margin-left: 30px;
         font-size: 30px;
     }
     .h_headings {
         margin-left: 30px;
+    }
+    .box {
+        gap: 2em 6em; 
+        }
+ 
+    .box__btn p {
+        margin-left: 0;
     }
     .box__hdn h2:first-child {
         margin-left: 30px;
@@ -215,7 +187,58 @@ footer p {
         margin-left: 30px;
     }
     .gallery {
-        display: block;
-        padding: 0;
+       flex-direction: column;
+        width: 100%;
+        margin: auto;
+        align-items: center;
+    }
+    .gallery_img1 {
+        height: 320px;
+        width: 220px;
+    }
+    .gallery_img2 {
+        height: 320px;
+        width: 220px;
+    }
+    .gallery_img3 {
+        height: 320px;
+        width: 220px;
+    }
+}
+
+@media screen and (max-width:340px) {
+ 
+    .box {
+        gap: 2em 6em;
+           
+        }
+    
+    .first h1 {
+        margin-left: 30px;
+        font-size: 30px;
+    }
+    .h_headings {
+        margin-left: 30px;
+    }
+    .box__hdn h2:first-child {
+        margin-left: 30px;
+    }
+    .box__hdn p {
+        margin-left: 30px;
+    }
+    a .navbar__menu {
+        size: 4px;
+        flex-wrap: nowrap;
+    }
+    .navbar__menu {
+        justify-content: space-around;
+    }
+    .box__gal h2 {
+        margin-left: 30px;
+    }
+    .gallery {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     }
 }

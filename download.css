@@ -1,9 +1,30 @@
+/*headings */
+h1 {
+    size: 40px;
+}
+h2 {
+    size: 35px;
+}
+h3 {
+    size: 30px;
+}
+h4 {
+    size: 25px;
+}
+h5 {
+    size: 20px;
+}
+h6 {
+    size: 15px;
+}
 /* button */
 .box {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin: auto;
+    max-width: 800px;
    
 }
 .primary-btn {
@@ -22,7 +43,6 @@
     padding: 16px 52px;
     color: var(--white);
     font-weight: 600;
-    margin-left: 60px;
     transition: 0.3s;
     border:  2px solid var(--blac);
 }
@@ -34,7 +54,6 @@
     padding: 16px 52px;
     color: var(--gold);
     font-weight: 600;
-    margin-left: 60px;
 }
 .change-btn {
     background: var(--grean);
@@ -43,7 +62,6 @@
     padding: 16px 52px;
     color: var(--blac);
     font-weight: 600;
-    margin-left: 60px;
     border:  2px solid var(--grean);
 }
 .primary-btn:hover {
@@ -74,7 +92,7 @@
 .gallery {
     display: flex;
     justify-content: center;
-    padding: 0.5em 3em 6em 3em;
+    width: auto;
 }
 figure {
     overflow: hidden;
