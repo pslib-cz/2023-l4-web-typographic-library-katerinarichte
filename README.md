@@ -11,6 +11,7 @@ html
 ## Implementation
 
 Headings
+
 40px - <h1>
 35px - <h2>
 30px - <h3>
@@ -19,15 +20,16 @@ Headings
 15px - <h6>
 
 Buttons 
- <div class="box">
-                <a class="primary-btn"></a>
-                <a class="click-btn"></a>
-                <a class="noclick-btn"></a>
-                <a class="change-btn"></a>
-            </div>
+
+<div class="box">
+         <a class="primary-btn"></a>
+         <a class="click-btn"></a>
+         <a class="noclick-btn"></a>
+         <a class="change-btn"></a>
+ </div>
 
 Gallery
-<div class="gallery">
+
                 <figure class="gallery_img1">
                     <a href=" "> 
                         <img class="img" src=" " alt="utes">
@@ -47,7 +49,6 @@ Gallery
                         <figcaption class="img__caption">caption</figcaption>
                     </a>
                 </figure>
-            </div>
 ## Usage
 ...
 ## Components
