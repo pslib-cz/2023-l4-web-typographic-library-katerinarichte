@@ -4,9 +4,47 @@
 ## Demo site
 Link to **[demo]( https://pslib-cz.github.io/2023-l4-web-typographic-library-katerinarichte/)** site for preview.
 ## Dependecies
-...
+html 
+        <head>
+               <link rel="stylesheet" href="./download.css">
+        <head>
 ## Implementation
-...
+Headings
+40px - <h1>
+35px - <h2>
+30px - <h3>
+25px - <h4>
+20px - <h5>
+15px - <h6>
+Buttons 
+ <div class="box">
+                <a class="primary-btn">text</a>
+                <a class="click-btn">text</a>
+                <a class="noclick-btn">text</a>
+                <a class="change-btn">text</a>
+            </div>
+Gallery
+<div class="gallery">
+                <figure class="gallery_img1">
+                    <a href=" "> 
+                        <img class="img" src=" " alt="utes">
+                        <figcaption class="img__caption">caption</figcaption>
+                    </a>
+                   
+                </figure>
+                <figure class="gallery_img2">
+                    <a href=" ">
+                        <img class="img" src=" " alt="stopy">
+                        <figcaption class="img__caption">caption</figcaption>
+                    </a>  
+                </figure>
+                <figure class="gallery_img3">
+                    <a href=" "> 
+                        <img class="img" src=" " alt="plaz">
+                        <figcaption class="img__caption">caption</figcaption>
+                    </a>
+                </figure>
+            </div>
 ## Usage
 ...
 ## Components
