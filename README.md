@@ -9,6 +9,7 @@ html
                <link rel="stylesheet" href="./download.css">
         <head>
 ## Implementation
+
 Headings
 40px - <h1>
 35px - <h2>
@@ -16,13 +17,15 @@ Headings
 25px - <h4>
 20px - <h5>
 15px - <h6>
+
 Buttons 
  <div class="box">
-                <a class="primary-btn">text</a>
-                <a class="click-btn">text</a>
-                <a class="noclick-btn">text</a>
-                <a class="change-btn">text</a>
+                <a class="primary-btn"></a>
+                <a class="click-btn"></a>
+                <a class="noclick-btn"></a>
+                <a class="change-btn"></a>
             </div>
+
 Gallery
 <div class="gallery">
                 <figure class="gallery_img1">
